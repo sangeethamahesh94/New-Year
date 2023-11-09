@@ -1,0 +1,44 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url(https://www.teahub.io/photos/full/263-2634554_red-new-year-background-background-image-for-new.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+    color:whitesmoke;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.count-down
+{
+     Display: flex;
+    
+}
+.time
+{
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+ justify-content: space-between;
+ margin: 15px;
+}
+ h1{
+    font-size:40px ;
+}
+.time small
+{
+    font-size: 20px;
+}
+.year
+{
+  position: absolute;
+  bottom: 20px;
+  font-size: 90px;
+  opacity:0.6;
+}
